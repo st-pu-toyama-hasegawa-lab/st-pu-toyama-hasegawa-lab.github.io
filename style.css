@@ -49,41 +49,24 @@ footer{
     text-align:center;
     padding:15px;
 }
-.page {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 30px;
-  background: white;
-}
-
-.breadcrumb {
-  margin-bottom: 60px;
-  font-size: 16px;
-}
-
-.breadcrumb a {
-  color: #0099cc;
-}
-
-.member-section {
+.member-table {
   margin-top: 40px;
-}
-
-.member-section h3 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
 }
 
 .member-row {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  padding: 24px 0;
+  grid-template-columns: 200px 120px 1fr;
+  padding: 28px 0;
   border-bottom: 1px solid #ddd;
   font-size: 18px;
 }
 
-.member-role {
-  color: #333;
+.member-category {
+  color: #222;
+}
+
+.member-grade {
+  color: #222;
 }
 
 .member-name {
