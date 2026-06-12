@@ -51,14 +51,22 @@ footer{
 }
 .member-table {
   margin-top: 40px;
+  width: 100%;
 }
 
 .member-row {
   display: grid;
-  grid-template-columns: 200px 120px 1fr;
-  padding: 28px 0;
+  grid-template-columns: 220px 120px 1fr;
+  align-items: center;
+  min-height: 90px;
   border-bottom: 1px solid #ddd;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.member-category,
+.member-grade,
+.member-name {
+  padding: 20px 0;
 }
 
 .member-category {
