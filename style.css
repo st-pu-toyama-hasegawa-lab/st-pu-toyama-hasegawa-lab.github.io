@@ -79,3 +79,21 @@ footer{
   font-size: 20px;
   color: #111;
 }
+
+.access-section {
+  margin-top: 35px;
+}
+
+.access-section h3 {
+  border-left: 6px solid #003366;
+  padding-left: 12px;
+  margin-bottom: 15px;
+}
+
+.access-map {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
