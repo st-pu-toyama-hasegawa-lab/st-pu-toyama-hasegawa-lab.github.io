@@ -56,7 +56,7 @@ footer{
 
 .member-row {
   display: grid;
-  grid-template-columns: 220px 120px 1fr;
+  grid-template-columns: 260px 1fr;
   align-items: center;
   min-height: 90px;
   border-bottom: 1px solid #ddd;
@@ -64,16 +64,11 @@ footer{
 }
 
 .member-category,
-.member-grade,
 .member-name {
   padding: 20px 0;
 }
 
 .member-category {
-  color: #222;
-}
-
-.member-grade {
   color: #222;
 }
 
