@@ -119,3 +119,23 @@ footer{
 .album-item p {
   margin-top: 10px;
 }
+.news-section {
+  margin-top: 50px;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-date {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  color: #003366;
+}
