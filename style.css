@@ -7,11 +7,17 @@ body{
 header{
     background:#003366;
     color:white;
-    padding:20px;
+    padding: 25px 30px;
 }
 
-header h1{
-    margin:0;
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin: 8px 0 0;
+  font-size: 16px;
 }
 
 nav{
@@ -36,11 +42,11 @@ nav a:hover{
     object-fit:cover;
 }
 
-.content{
-    width:80%;
-    margin:auto;
-    background:white;
-    padding:30px;
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 30px;
+  background: transparent;
 }
 
 footer{
