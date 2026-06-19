@@ -25,6 +25,30 @@ header p {
 .contact-section {
   margin-top: 45px;
 }
+main section {
+  margin-bottom: 60px;
+}
+
+main section h2 {
+  margin-bottom: 25px;
+}
+
+main section p {
+  line-height: 1.9;
+}
+.notice-section {
+  background: white;
+  padding: 30px;
+  border-left: 6px solid #003366;
+  border: 1px solid #ddd;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.message-section {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
 
 .notice-section {
   background: white;
