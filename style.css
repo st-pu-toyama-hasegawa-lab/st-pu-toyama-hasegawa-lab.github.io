@@ -20,6 +20,26 @@ header p {
   margin: 10px 0 0;
   font-size: 18px;
 }
+.message-section,
+.notice-section,
+.contact-section {
+  margin-top: 45px;
+}
+
+.notice-section {
+  background: white;
+  padding: 25px;
+  border-left: 6px solid #003366;
+  border: 1px solid #ddd;
+}
+
+.message-section p,
+.notice-section p,
+.contact-section p {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
 nav{
     background:black;
     text-align:center;
