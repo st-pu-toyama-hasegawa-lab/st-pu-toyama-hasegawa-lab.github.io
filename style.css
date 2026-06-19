@@ -145,3 +145,10 @@ footer{
   padding: 0 30px;
   background: transparent;
 }
+.floor-map {
+  width: 600px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
