@@ -89,13 +89,32 @@ footer{
   padding-left: 12px;
   margin-bottom: 15px;
 }
+.access-map-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 20px;
+}
 
-.access-map {
-  width: 500px;
-  max-width: 100%;
-  display: block;
-  margin: 20px auto;
+.access-map-item {
+  text-align: center;
+}
+
+.access-map-item img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
   border: 1px solid #ddd;
+  background: white;
+}
+
+.access-map-item h4 {
+  margin-bottom: 10px;
+}
+@media (max-width: 700px) {
+  .access-map-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .album-grid {
@@ -145,10 +164,4 @@ footer{
   padding: 0 30px;
   background: transparent;
 }
-.floor-map {
-  width: 600px;
-  max-width: 100%;
-  display: block;
-  margin: 20px auto;
-  border: 1px solid #ddd;
-}
+
