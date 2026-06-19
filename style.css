@@ -164,6 +164,31 @@ footer{
   padding: 0 30px;
   background: transparent;
 }
+.publication-section {
+  margin-top: 45px;
+}
+
+.publication-section h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.publication-section h4 {
+  font-size: 20px;
+  margin-left: 35px;
+  margin-bottom: 25px;
+}
+
+.publication-item {
+  margin-left: 60px;
+  margin-bottom: 35px;
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+.publication-item p {
+  margin: 10px 0;
+}
 
 /* スマホ対応 */
 @media (max-width: 700px) {
