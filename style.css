@@ -344,6 +344,7 @@ footer {
     padding: 20px;
     text-align: center;
   }
+   
 
   header h1 {
     font-size: 28px;
@@ -413,9 +414,12 @@ footer {
 
   /* アルバム */
 
-  .album-grid {
-    grid-template-columns: 1fr;
-  }
+ .album-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
 
   .album-item img {
     height: auto;
