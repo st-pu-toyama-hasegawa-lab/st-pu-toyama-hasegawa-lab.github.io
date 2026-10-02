@@ -322,3 +322,31 @@ footer{
     margin-bottom: 4px;
   }
 }
+
+/* 学部生の学年分け */
+.student-grade-group {
+  margin-bottom: 24px;
+}
+
+.student-grade-group:last-child {
+  margin-bottom: 0;
+}
+
+/* B4・B3の小見出し */
+.student-grade-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #777;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #ddd;
+}
+
+/* 学年内の学生同士の間隔 */
+.student-grade-group .member-name {
+  margin-bottom: 12px;
+}
+
+.student-grade-group .member-name:last-child {
+  margin-bottom: 0;
+}
